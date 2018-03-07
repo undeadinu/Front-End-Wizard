@@ -113,7 +113,7 @@ A collection of front end resources, tutorials, codepens and articles
 - :books: [How microinteractions improve ux](https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/) - How to improve UX
 - :books: [Sketching Interfaces](https://airbnb.design/sketching-interfaces/)
 - :globe_with_meridians: [Dribble](https://dribbble.com/) - A website which offers design inspiration
-- :: [goodweb](http://www.goodweb.design/) - A website for design inspiration
+- :globe_with_meridians: [goodweb](http://www.goodweb.design/) - A website for design inspiration
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
 - :computer: [MyDevice](https://mydevice.io/devices/) - A web application that shows you the common widths of mobile devices
 
