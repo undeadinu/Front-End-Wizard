@@ -22,7 +22,7 @@ A collection of front end resources, tutorials, codepens and articles
 - [CSS](#css)
 - [SASS](#sass)
 - [JS](#js)
-- [UX/Design](#ux/design)
+- [UX-Design](#ux-design)
 - [Applications](#applications)
 - [Training Platforms](#training)
 
@@ -56,7 +56,7 @@ A collection of front end resources, tutorials, codepens and articles
 - :globe_with_meridians: [NodeMailer](https://nodemailer.com/about/) - Nodemailer is a module for Node.js applications to allow easy as cake email sending
 - :link: [IOS Double tap fix](https://gist.github.com/johan/2047491) - A jQuery plugin to selectively disable the iOS double-tap-to-zoom action on specific page elements
 
-## UX/Design
+## UX-Design
 
 - :books: [Creating usability with motion guide](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc) - How to use motion correctly
 - :books: [How microinteractions improve ux](https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/) - How to improve UX
