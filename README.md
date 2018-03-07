@@ -61,7 +61,7 @@ A collection of front end resources, tutorials, codepens and articles
 
 ### CSS FRAMEWORKS
 
-Below is a lsit of frameworks however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content so please check it out
+Below is a list of frameworks however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content so please check it out
 
 - :globe_with_meridians: [Purecss.io](https://purecss.io/) - A set of small, responsive CSS modules that you can use in every web project.
 - :globe_with_meridians: [spectre](https://picturepan2.github.io/spectre/) - a Lightweight, Responsive and Modern CSS Framework
