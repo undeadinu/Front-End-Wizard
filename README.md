@@ -100,7 +100,7 @@ A collection of front end resources, tutorials, codepens and articles
 ## CSS-JS
 
 - :globe_with_meridians: [kube](https://imperavi.com/kube/) - A CSS and JS framework
-- :micron: [](https://webkul.github.io/micron/) - microInteraction library built with CSS Animations and controlled by JavaScript Power
+- :globe_with_meridians: [micron](https://webkul.github.io/micron/) - microInteraction library built with CSS Animations and controlled by JavaScript Power
 
 ## Icons-SVG
 
