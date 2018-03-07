@@ -12,7 +12,7 @@ A collection of front end resources, tutorials, codepens and articles
 
 ### Pricing Legend
 
-- :tada: - Free
+- :free: - Free
 - :moneybag: - Paid
 - :money_with_wings: - Has free and paid sections
 
@@ -67,7 +67,7 @@ A collection of front end resources, tutorials, codepens and articles
 
 ## Applications
 
-- :tada: [GIMP](https://www.gimp.org/) - A totally free image editing suite similar to Photoshop
+- :free: [GIMP](https://www.gimp.org/) - A totally free image editing suite similar to Photoshop
 - :moneybag: [Illustrator](https://www.adobe.com/uk/products/illustrator.html) - SVG editing tool and website design software
 - :moneybag: [Photoshop](https://www.adobe.com/uk/products/photoshop.html) - SVG editing tool and website design software
 - :moneybag: [Sketch](https://www.sketchapp.com/) - MAC ONLY, SVG editing tool and website design software
