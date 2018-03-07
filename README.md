@@ -43,13 +43,13 @@ A collection of front end resources, tutorials, codepens and articles
 - :books: [A visual guide to CSS flexbox](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) - A guide on using flexbox
 - :books: [Animated SVG loader guide](http://chrisdermody.com/animated-svg-loader-mydevportfol-io/) - How to make an animated SVG loading symbol
 - :books: [Bootstrap 3 breakpoint media queries](https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries) - A list of media queries used by bootstrap 3
-- :books: [Checkbox trickery with css](http://codersblock.com/blog/checkbox-trickery-with-css/) - Make custom Checkboxes with css
+- :books: [Checkbox trickery with css](http://codersblock.com/blog/checkbox-trickery-with-css/) - Make custom Checkboxes with CSS
 - :books: [Versioning conflicts](https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/) - Solving CSS versioning conflicts
 - :books: [Stack motion hover effects](https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/) - Experimental hover effects that reveal a stack of multiple colored cards
 - :globe_with_meridians: [Animate.css](https://daneden.github.io/animate.css/) - A cross-browser library of CSS animations
 - :globe_with_meridians: [BEM CSS](http://getbem.com/) - A CSS methodology that helps you to create reusable components
 - :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - A HTML and CSS code guide for better structure
-- :globe_with_meridians: [Epic spinners](http://epic-spinners.epicmax.co/#/) - pure css and html loading spinners
+- :globe_with_meridians: [Epic spinners](http://epic-spinners.epicmax.co/#/) - pure CSS and html loading spinners
 - :globe_with_meridians: [Normalize.css](http://necolas.github.io/normalize.css/) - A modern alternative to CSS resets
 - :globe_with_meridians: [Instagram.css](https://picturepan2.github.io/instagram.css/) - Pure CSS instagram filters
 - :computer: [Gradient generator (static)](http://angrytools.com/css-generator/gradient/) - Web application to make gradients
@@ -73,7 +73,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :globe_with_meridians: [semantic-ui](https://semantic-ui.com/)- Semantic is a development framework that helps create beautiful, responsive layouts 
 - :globe_with_meridians: [base](http://getbase.org/) - Lightweight and minimal code.
 - :globe_with_meridians: [webui](https://asyncdesign.github.io/webui/index.html) - A fully responsive CSS framework for modern browsers
-- :globe_with_meridians: [tachyons](http://tachyons.io/) - 100% responsive interfaces with as little css as possible
+- :globe_with_meridians: [tachyons](http://tachyons.io/) - 100% responsive interfaces with as little CSS as possible
 - :globe_with_meridians: [rocketcss](http://rocketcss.org/) - A framework that helps build clean, efficient and responsive websites. 
 - :globe_with_meridians: [cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
 - :globe_with_meridians: [blazeui](https://www.blazeui.com/) - css modular toolkit
@@ -107,7 +107,7 @@ Below is a list of frameworks however this link is to another repository linking
 ## Icons-SVG
 
 - :globe_with_meridians: [simplesvg](https://simplesvg.com/icon-sets/) - SVG base icon sets
-- :globe_with_meridians: [octicons](https://octicons.github.com/) - Your application githubs icons
+- :globe_with_meridians: [octicons](https://octicons.github.com/) - "Your project. GitHub's icons."
 
 ## UX-Design
 
@@ -130,17 +130,17 @@ Below is a list of frameworks however this link is to another repository linking
 
 ### TextEditors
 
-- :free: [Atom](https://atom.io/) - A hackablel text editor
+- :free: [Atom](https://atom.io/) - A hackable text editor
 - :money_with_wings: [Sublime text 3](https://www.sublimetext.com/3) - Free trial text editor with great shortcuts
 - :free: [Visual Studio Code](https://code.visualstudio.com/) - A fast text editor
 
 
 ## Training
 
-This section is for training platforms which offere free/paid courses to learn development. Any platform added here should contain a wide array of courses.
+This section is for training platforms which offer free/paid courses to learn development. Any platform added here should contain a wide array of courses.
 
 #### Platforms
 
 - :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
-- :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online tutorial video platform
-- :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well built courses in front end ux backend etc
+- :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online video tutorial platform
+- :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
