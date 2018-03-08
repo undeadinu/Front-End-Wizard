@@ -78,6 +78,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :globe_with_meridians: [cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
 - :globe_with_meridians: [blazeui](https://www.blazeui.com/) - css modular toolkit
 - :globe_with_meridians: [karmacss](https://karmacss.com/) - Karma CSS is a great starting point if you only want a barebones boilerplate
+- :globe_with_meridians: [mini.css](https://minicss.org/) - minimal, responsive, style-agnostic CSS framework
 - :computer: [Bootstrap build](https://bootstrap.build/app/v4.0/) - Bootstrap 4 Builder
 
 ## SASS
