@@ -148,6 +148,8 @@ This section is for training platforms which offer free/paid courses to learn de
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online video tutorial platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
 - :moneybag: [FrontendMasters](frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
+- :moneybag: [LambdaSchool](https://lambdaschool.com/mini-bootcamp/) - Free online bootcamp for front-end skills covering basic to advanced programming concepts, including HTML, CSS and JavaScript.
+
 #### Challenges
 
 - :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
