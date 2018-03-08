@@ -22,8 +22,8 @@ A collection of front end resources, tutorials, codepens and articles
 - [CSS](#css)
 - [SASS](#sass)
 - [JS](#js)
-- [CSS-JS](#CSS-JS)
-- [Icons-svg](#Icons-SVG)
+- [CSS-JS](#css-js)
+- [Icons-svg](#icons-svg)
 - [UX-Design](#ux-design)
 - [Applications](#applications)
 - [Training Platforms](#training)
@@ -78,6 +78,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :globe_with_meridians: [cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
 - :globe_with_meridians: [blazeui](https://www.blazeui.com/) - css modular toolkit
 - :globe_with_meridians: [karmacss](https://karmacss.com/) - Karma CSS is a great starting point if you only want a barebones boilerplate
+- :globe_with_meridians: [mini.css](https://minicss.org/) - minimal, responsive, style-agnostic CSS framework
 - :computer: [Bootstrap build](https://bootstrap.build/app/v4.0/) - Bootstrap 4 Builder
 
 ## SASS
@@ -114,6 +115,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :books: [Creating usability with motion guide](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc) - How to use motion correctly
 - :books: [How microinteractions improve ux](https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/) - How to improve UX
 - :books: [Sketching Interfaces](https://airbnb.design/sketching-interfaces/)
+- :books: [7 Practical Tips for Cheating at Design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - :globe_with_meridians: [Dribble](https://dribbble.com/) - A website which offers design inspiration
 - :globe_with_meridians: [goodweb](http://www.goodweb.design/) - A website for design inspiration
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
@@ -144,3 +146,12 @@ This section is for training platforms which offer free/paid courses to learn de
 - :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online video tutorial platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
+
+#### Challenges
+
+- :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
+- :free: [Coderfights](https://coderfights.com) - Free coding challenges, including tournaments and duels.
+- :free: [Codewars](https://www.codewars.com) - A variety of coding challenges, with a range of difficulty posted by users.
+- :money_with_wings: [LeetCode](https://leetcode.com/) - Mostly free coding challenges with a wide range of complexity.
+- :free: [Project Euler](https://projecteuler.net/archives) - Archived coding challenges meant for self-study.
+- :free: [Rosetta Code](https://rosettacode.org/) - A massive repository of various challenges housing answers across every language imaginable.
