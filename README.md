@@ -58,6 +58,7 @@ A collection of front end resources, tutorials, codepens and articles
 - :computer: [Loadin.io spinner](https://loading.io/spinner/) - custom loading animations
 - :computer: [Animista](http://animista.net/) - custom CSS animations generator
 - :computer: [pleeease.io](http://pleeease.io/play/) - CSS Autoprefixer
+- :link: [Center anything](https://gist.github.com/kieranmv95/8c5ff7fd0324814dcf69568bb1be370b) - CSS Center anything without flex
 
 ### CSS FRAMEWORKS
 
