@@ -144,3 +144,12 @@ This section is for training platforms which offere free/paid courses to learn d
 - :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online tutorial video platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well built courses in front end ux backend etc
+
+#### Challenges
+
+- :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
+- :free: [Coderfights](https://coderfights.com) - Free coding challenges, including tournaments and duels.
+- :free: [Codewars](https://www.codewars.com) - A variety of coding challenges, with a range of difficulty posted by users.
+- :money_with_wings: [LeetCode](https://leetcode.com/) - Mostly free coding challenges with a wide range of complexity.
+- :free: [Project Euler](https://projecteuler.net/archives) - Archived coding challenges meant for self-study.
+- :free: [Rosetta Code](https://rosettacode.org/) - A massive repository of various challenges housing answers across every language imaginable.
