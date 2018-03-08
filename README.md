@@ -22,8 +22,8 @@ A collection of front end resources, tutorials, codepens and articles
 - [CSS](#css)
 - [SASS](#sass)
 - [JS](#js)
-- [CSS-JS](#CSS-JS)
-- [Icons-svg](#Icons-SVG)
+- [CSS-JS](#css-js)
+- [Icons-svg](#icons-svg)
 - [UX-Design](#ux-design)
 - [Applications](#applications)
 - [Training Platforms](#training)
@@ -61,6 +61,8 @@ A collection of front end resources, tutorials, codepens and articles
 
 ### CSS FRAMEWORKS
 
+Below is a list of frameworks however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content so please check it out
+
 - :globe_with_meridians: [Purecss.io](https://purecss.io/) - A set of small, responsive CSS modules that you can use in every web project.
 - :globe_with_meridians: [spectre](https://picturepan2.github.io/spectre/) - a Lightweight, Responsive and Modern CSS Framework
 - :globe_with_meridians: [GetSkeleton](http://getskeleton.com/) - A dead simple, responsive boilerplate.
@@ -76,6 +78,7 @@ A collection of front end resources, tutorials, codepens and articles
 - :globe_with_meridians: [cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
 - :globe_with_meridians: [blazeui](https://www.blazeui.com/) - css modular toolkit
 - :globe_with_meridians: [karmacss](https://karmacss.com/) - Karma CSS is a great starting point if you only want a barebones boilerplate
+- :globe_with_meridians: [mini.css](https://minicss.org/) - minimal, responsive, style-agnostic CSS framework
 - :computer: [Bootstrap build](https://bootstrap.build/app/v4.0/) - Bootstrap 4 Builder
 
 ## SASS
@@ -143,3 +146,12 @@ This section is for training platforms which offere free/paid courses to learn d
 - :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online tutorial video platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well built courses in front end ux backend etc
+
+#### Challenges
+
+- :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
+- :free: [Coderfights](https://coderfights.com) - Free coding challenges, including tournaments and duels.
+- :free: [Codewars](https://www.codewars.com) - A variety of coding challenges, with a range of difficulty posted by users.
+- :money_with_wings: [LeetCode](https://leetcode.com/) - Mostly free coding challenges with a wide range of complexity.
+- :free: [Project Euler](https://projecteuler.net/archives) - Archived coding challenges meant for self-study.
+- :free: [Rosetta Code](https://rosettacode.org/) - A massive repository of various challenges housing answers across every language imaginable.
