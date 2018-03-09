@@ -147,7 +147,10 @@ This section is for training platforms which offer free/paid courses to learn de
 - :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online video tutorial platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
+- :moneybag: [FrontendMasters](frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
+- :free: [FreeCodeCamp](https://freecodecamp.com) - A community that helps you learn to code, then get experience by contributing to open source projects used by nonprofits.
 - :moneybag: [FrontendMasters](https://frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
+
 #### Challenges
 
 - :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
