@@ -117,7 +117,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :books: [How microinteractions improve ux](https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/) - How to improve UX
 - :books: [Sketching Interfaces](https://airbnb.design/sketching-interfaces/)
 - :books: [7 Practical Tips for Cheating at Design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
-- :globe_with_meridians: [Dribble](https://dribbble.com/) - A website which offers design inspiration
+- :globe_with_meridians: [Dribbble](https://dribbble.com/) - A website which offers design inspiration
 - :globe_with_meridians: [goodweb](http://www.goodweb.design/) - A website for design inspiration
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
 - :computer: [MyDevice](https://mydevice.io/devices/) - A web application that shows you the common widths of mobile devices
@@ -149,6 +149,7 @@ This section is for training platforms which offer free/paid courses to learn de
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
 - :moneybag: [FrontendMasters](frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
 - :moneybag: [LambdaSchool](https://lambdaschool.com/mini-bootcamp/) - Free online bootcamp for front-end skills covering basic to advanced programming concepts, including HTML, CSS and JavaScript.
+- :free: [FreeCodeCamp](https://freecodecamp.com) - A community that helps you learn to code, then get experience by contributing to open source projects used by nonprofits.
 
 #### Challenges
 
