@@ -64,6 +64,7 @@ A collection of front end resources, tutorials, codepens and articles
 Below is a list of frameworks however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content so please check it out
 
 - :globe_with_meridians: [Purecss.io](https://purecss.io/) - A set of small, responsive CSS modules that you can use in every web project.
+- :globe_with_meridians: [minii.css](https://minii.finleycorrigan.com/) - A minimal CSS framework designed to be all you need.
 - :globe_with_meridians: [spectre](https://picturepan2.github.io/spectre/) - a Lightweight, Responsive and Modern CSS Framework
 - :globe_with_meridians: [GetSkeleton](http://getskeleton.com/) - A dead simple, responsive boilerplate.
 - :globe_with_meridians: [Bulma](https://bulma.io/) - CSS framework based on Flexbox
@@ -136,6 +137,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :free: [Atom](https://atom.io/) - A hackable text editor
 - :money_with_wings: [Sublime text 3](https://www.sublimetext.com/3) - Free trial text editor with great shortcuts
 - :free: [Visual Studio Code](https://code.visualstudio.com/) - A fast text editor
+- :free: [Brackets](http://brackets.io) - A modern, open source text editor that understands web design
 
 
 ## Training
