@@ -46,6 +46,7 @@ A collection of front end resources, tutorials, codepens and articles
 - :books: [Checkbox trickery with css](http://codersblock.com/blog/checkbox-trickery-with-css/) - Make custom Checkboxes with CSS
 - :books: [Versioning conflicts](https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/) - Solving CSS versioning conflicts
 - :books: [Stack motion hover effects](https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/) - Experimental hover effects that reveal a stack of multiple colored cards
+- :books: [Confused about rem and em](https://j.eremy.net/confused-about-rem-and-em/) - Wrapping your heada around rem and em article
 - :globe_with_meridians: [Animate.css](https://daneden.github.io/animate.css/) - A cross-browser library of CSS animations
 - :globe_with_meridians: [BEM CSS](http://getbem.com/) - A CSS methodology that helps you to create reusable components
 - :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - An HTML and CSS code guide for better structure
