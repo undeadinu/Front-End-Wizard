@@ -32,7 +32,7 @@ A collection of front end resources, tutorials, codepens and articles
 
 - :books: [getHead](https://gethead.info/) - A guide to `<head>` elements
 - :books: [You should use html form validation](https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html) - Reference and guide about html form validation
-- :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - A HTML and CSS code guide for better structure
+- :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - An HTML and CSS code guide for better structure
 - :globe_with_meridians: [HTML5Pattern](http://html5pattern.com/) - HTML5Pattern is a source of regularly used Input-Patterns.
 - :globe_with_meridians: [srishash](https://www.srihash.org/) - SRI Hash generator
 
@@ -48,38 +48,38 @@ A collection of front end resources, tutorials, codepens and articles
 - :books: [Stack motion hover effects](https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/) - Experimental hover effects that reveal a stack of multiple colored cards
 - :globe_with_meridians: [Animate.css](https://daneden.github.io/animate.css/) - A cross-browser library of CSS animations
 - :globe_with_meridians: [BEM CSS](http://getbem.com/) - A CSS methodology that helps you to create reusable components
-- :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - A HTML and CSS code guide for better structure
-- :globe_with_meridians: [Epic spinners](http://epic-spinners.epicmax.co/#/) - pure CSS and html loading spinners
+- :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - An HTML and CSS code guide for better structure
+- :globe_with_meridians: [Epic spinners](http://epic-spinners.epicmax.co/#/) - Pure CSS and html loading spinners
 - :globe_with_meridians: [Normalize.css](http://necolas.github.io/normalize.css/) - A modern alternative to CSS resets
 - :globe_with_meridians: [Instagram.css](https://picturepan2.github.io/instagram.css/) - Pure CSS instagram filters
 - :computer: [Gradient generator (static)](http://angrytools.com/css-generator/gradient/) - Web application to make gradients
 - :computer: [Gradient animator (animated)](https://www.gradient-animator.com/) - Web application to make animated gradients
 - :computer: [Triangle generator](http://triangle.designyourcode.io/) - CSS Triangle Generator
-- :computer: [Loadin.io spinner](https://loading.io/spinner/) - custom loading animations
-- :computer: [Animista](http://animista.net/) - custom CSS animations generator
+- :computer: [Loadin.io spinner](https://loading.io/spinner/) - Custom loading animations
+- :computer: [Animista](http://animista.net/) - Custom CSS animations generator
 - :computer: [pleeease.io](http://pleeease.io/play/) - CSS Autoprefixer
 
 ### CSS FRAMEWORKS
 
-Below is a list of frameworks however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content so please check it out
+Below is a list of frameworks, however this link is to another repository linking CSS frameworks specifically. [awesome css frameworks](https://github.com/troxler/awesome-css-frameworks). It has very good content, so please check it out.
 
 - :globe_with_meridians: [Purecss.io](https://purecss.io/) - A set of small, responsive CSS modules that you can use in every web project.
 - :globe_with_meridians: [minii.css](https://minii.finleycorrigan.com/) - A minimal CSS framework designed to be all you need.
-- :globe_with_meridians: [spectre](https://picturepan2.github.io/spectre/) - a Lightweight, Responsive and Modern CSS Framework
+- :globe_with_meridians: [spectre](https://picturepan2.github.io/spectre/) - A Lightweight, Responsive and Modern CSS Framework
 - :globe_with_meridians: [GetSkeleton](http://getskeleton.com/) - A dead simple, responsive boilerplate.
 - :globe_with_meridians: [Bulma](https://bulma.io/) - CSS framework based on Flexbox
 - :globe_with_meridians: [Material design lite](https://getmdl.io/index.html) - Material Design Lite
 - :globe_with_meridians: [materialize](http://materializecss.com/) - A responsive front-end framework based on Material Design
-- :globe_with_meridians: [Ulkit](https://getuikit.com/) - front-end framework for developing fast and powerful web interfaces.
+- :globe_with_meridians: [Ulkit](https://getuikit.com/) - Front-end framework for developing fast and powerful web interfaces.
 - :globe_with_meridians: [semantic-ui](https://semantic-ui.com/)- Semantic is a development framework that helps create beautiful, responsive layouts 
 - :globe_with_meridians: [base](http://getbase.org/) - Lightweight and minimal code.
 - :globe_with_meridians: [webui](https://asyncdesign.github.io/webui/index.html) - A fully responsive CSS framework for modern browsers
 - :globe_with_meridians: [tachyons](http://tachyons.io/) - 100% responsive interfaces with as little CSS as possible
 - :globe_with_meridians: [rocketcss](http://rocketcss.org/) - A framework that helps build clean, efficient and responsive websites. 
 - :globe_with_meridians: [cutestrap](https://www.cutestrap.com/) - A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.
-- :globe_with_meridians: [blazeui](https://www.blazeui.com/) - css modular toolkit
+- :globe_with_meridians: [blazeui](https://www.blazeui.com/) - CSS modular toolkit
 - :globe_with_meridians: [karmacss](https://karmacss.com/) - Karma CSS is a great starting point if you only want a barebones boilerplate
-- :globe_with_meridians: [mini.css](https://minicss.org/) - minimal, responsive, style-agnostic CSS framework
+- :globe_with_meridians: [mini.css](https://minicss.org/) - Minimal, responsive, style-agnostic CSS framework
 - :computer: [Bootstrap build](https://bootstrap.build/app/v4.0/) - Bootstrap 4 Builder
 
 ## SASS
@@ -87,7 +87,7 @@ Below is a list of frameworks however this link is to another repository linking
 - :books: [Using SASS with the angular cli](https://scotch.io/tutorials/using-sass-with-the-angular-cli) - A guide on using SASS with the angular cli
 - :globe_with_meridians: [Sierra library](https://sierra-library.github.io/) - The smallest and lightest SCSS library
 - :computer: [SassMeister](https://www.sassmeister.com/) - A web based playground for testing Sass creations
-- :link: [Spacing helper](https://gist.github.com/kieranmv95/99c5e4cb66ec76256b68600a5ee4e136) - customizable SCSS class generator for spacing units in web
+- :link: [Spacing helper](https://gist.github.com/kieranmv95/99c5e4cb66ec76256b68600a5ee4e136) - Customizable SCSS class generator for spacing units in web
 - :link: [Triangles Mixin](https://gist.github.com/kieranmv95/cc4b711f86981469f06bff2d6c674004) - SCSS mixin to instantly make pure css triangles
 - :link: [Cards](https://github.com/chandru89new/cards.sass) - Easy-to-use card UI for your app / project / website design.
 - :link: [Center anything mixin](https://gist.github.com/kieranmv95/8c5ff7fd0324814dcf69568bb1be370b) - SASS mixin to center anything without flex
@@ -97,15 +97,15 @@ Below is a list of frameworks however this link is to another repository linking
 - :books: [Deploy Angular 2 CLI app on heroku](https://medium.com/@ryanchenkie_40935/angular-cli-deployment-host-your-angular-2-app-on-heroku-3f266f13f352) - Host Your Angular 2 App on Heroku
 - :globe_with_meridians: [NodeMailer](https://nodemailer.com/about/) - Nodemailer is a module for Node.js applications to allow easy as cake email sending
 - :globe_with_meridians: [sorttable](https://kryogenix.org/code/browser/sorttable/) - VanillaJS table-sorting plugin
-- :globe_with_meridians: [sweetalert2](https://sweetalert2.github.io/) - a beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. 
+- :globe_with_meridians: [sweetalert2](https://sweetalert2.github.io/) - A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. 
 - :link: [IOS Double tap fix](https://gist.github.com/johan/2047491) - A jQuery plugin to selectively disable the iOS double-tap-to-zoom action on specific page elements
-- :link: [tippyjs](https://github.com/atomiks/tippyjs) - a lightweight, vanilla JS tooltip library
+- :link: [tippyjs](https://github.com/atomiks/tippyjs) - A lightweight, vanilla JS tooltip library
 - :link: [JSON country list](http://www.phpied.com/files/countries/list.json) - JSON Country List
 
 ## CSS-JS
 
 - :globe_with_meridians: [kube](https://imperavi.com/kube/) - A CSS and JS framework
-- :globe_with_meridians: [micron](https://webkul.github.io/micron/) - microInteraction library built with CSS Animations and controlled by JavaScript Power
+- :globe_with_meridians: [micron](https://webkul.github.io/micron/) - MicroInteraction library built with CSS Animations and controlled by JavaScript Power
 
 ## Icons-SVG
 
@@ -147,10 +147,10 @@ This section is for training platforms which offer free/paid courses to learn de
 
 #### Platforms
 
-- :money_with_wings: [Code Academy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
+- :money_with_wings: [Codecademy](https://www.codecademy.com/) - A very extensive free section but has a pro upgrade
 - :moneybag: [Pluralsight](https://learn.pluralsight.com) - Online video tutorial platform
 - :moneybag: [Treehouse](https://teamtreehouse.com/home) - A vast platform with extremely well-built courses in front-end, UX, backend, etc.
-- :moneybag: [FrontendMasters](frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
+- :moneybag: [FrontendMasters](https://frontendmasters.com) - Online video courses platform teaching in-depth JavaScript, React, Angular, Vue and more..
 - :moneybag: [LambdaSchool](https://lambdaschool.com/mini-bootcamp/) - Free online bootcamp for front-end skills covering basic to advanced programming concepts, including HTML, CSS and JavaScript.
 - :free: [FreeCodeCamp](https://freecodecamp.com) - A community that helps you learn to code, then get experience by contributing to open source projects used by nonprofits.
 
