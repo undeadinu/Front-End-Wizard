@@ -1,3 +1,8 @@
+<h1 align="center">
+    <img width="900" src="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/assets/images/FrontEndWizard.png" alt="logo"/>
+</h1>
+<hr/>
+
 # Front end collection
 
 A collection of front end resources, tutorials, codepens and articles
