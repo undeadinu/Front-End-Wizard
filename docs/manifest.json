@@ -22,7 +22,7 @@
         "sizes": "256x256",
         "type": "image/png"
     }],
-    "start_url": "/index.html",
+    "start_url": "https://kieranmv95.github.io/Front-End-Wizard/",
     "display": "standalone",
     "background_color": "#D6D6D6",
     "theme_color": "#673AB7"
