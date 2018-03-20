@@ -27,6 +27,7 @@ A collection of front end resources, tutorials, codepens and articles
 - [UX-Design](#ux-design)
 - [Applications](#applications)
 - [Training Platforms](#training)
+- [Miscallaneous](#Misc)
 
 ## HTML
 
@@ -47,6 +48,8 @@ A collection of front end resources, tutorials, codepens and articles
 - :books: [Versioning conflicts](https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/) - Solving CSS versioning conflicts
 - :books: [Stack motion hover effects](https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/) - Experimental hover effects that reveal a stack of multiple colored cards
 - :books: [Confused about rem and em](https://j.eremy.net/confused-about-rem-and-em/) - Wrapping your heada around rem and em article
+- :globe_with_meridians: [Flexbox.io](https://flexbox.io/) - What TheFlexBox?! A simple, free 20 video course that will help you master CSS Flexbox!
+- :globe_with_meridians: [cssgrid.io](https://cssgrid.io/) - Learn CSS Grid with Wes Bos in 25 pretty good videos
 - :globe_with_meridians: [Animate.css](https://daneden.github.io/animate.css/) - A cross-browser library of CSS animations
 - :globe_with_meridians: [BEM CSS](http://getbem.com/) - A CSS methodology that helps you to create reusable components
 - :globe_with_meridians: [Code guide by Mdo](http://codeguide.co/) - An HTML and CSS code guide for better structure
@@ -99,6 +102,7 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :globe_with_meridians: [NodeMailer](https://nodemailer.com/about/) - Nodemailer is a module for Node.js applications to allow easy as cake email sending
 - :globe_with_meridians: [sorttable](https://kryogenix.org/code/browser/sorttable/) - VanillaJS table-sorting plugin
 - :globe_with_meridians: [sweetalert2](https://sweetalert2.github.io/) - A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. 
+- :globe_with_meridians: [Your first PWA](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) - A tutorial for creating your first PWA
 - :link: [IOS Double tap fix](https://gist.github.com/johan/2047491) - A jQuery plugin to selectively disable the iOS double-tap-to-zoom action on specific page elements
 - :link: [tippyjs](https://github.com/atomiks/tippyjs) - A lightweight, vanilla JS tooltip library
 - :link: [JSON country list](http://www.phpied.com/files/countries/list.json) - JSON Country List
@@ -107,6 +111,9 @@ Below is a list of frameworks, however this link is to another repository linkin
 
 - :globe_with_meridians: [kube](https://imperavi.com/kube/) - A CSS and JS framework
 - :globe_with_meridians: [micron](https://webkul.github.io/micron/) - MicroInteraction library built with CSS Animations and controlled by JavaScript Power
+- :globe_with_meridians: [Fabricator](https://fbrctr.github.io/) - Generate a style guide from your toolkit code
+- :globe_with_meridians: [stylelint](https://stylelint.io/) - A mighty, modern CSS linter and fixer that helps you avoid errors
+- :computer: [CanIUse](https://www.caniuse.com/) - a CSS and JS support web app for seeing which browser supports which features
 
 ## Icons-SVG
 
@@ -119,11 +126,14 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :books: [How microinteractions improve ux](https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/) - How to improve UX
 - :books: [Sketching Interfaces](https://airbnb.design/sketching-interfaces/)
 - :books: [7 Practical Tips for Cheating at Design](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+- :books: [Stop stealing sheep](https://www.amazon.co.uk/Stop-Stealing-Sheep-Find-Works/dp/0201703394) - A book on how to typography
 - :globe_with_meridians: [Dribbble](https://dribbble.com/) - A website which offers design inspiration
 - :globe_with_meridians: [goodweb](http://www.goodweb.design/) - A website for design inspiration
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
 - :globe_with_meridians: [FontPair](https://fontpair.co/) - A website to help you pair google font fonts  together
+- :globe_with_meridians: [styleguides.io](http://styleguides.io/) - A website showing example styleguides
 - :computer: [MyDevice](https://mydevice.io/devices/) - A web application that shows you the common widths of mobile devices
+- :computer: [Am i responsive](http://ami.responsivedesign.is/) - A screenshot generator for nice responsive image examples
 
 ## Applications
 
@@ -140,6 +150,12 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :money_with_wings: [Sublime text 3](https://www.sublimetext.com/3) - Free trial text editor with great shortcuts
 - :free: [Visual Studio Code](https://code.visualstudio.com/) - A fast text editor
 - :free: [Brackets](http://brackets.io) - A modern, open source text editor that understands web design
+
+## Misc
+
+- :books: [Git Commit](https://chris.beams.io/posts/git-commit/) - How to write a good git commit message
+- :globe_with_meridians: [StaticGen](https://www.staticgen.com/) - Open source static site generators list
+- :computer: [Dillinger.io](https://dillinger.io/) - Markdown previewer
 
 
 ## Training
