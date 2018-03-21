@@ -137,6 +137,7 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
 - :globe_with_meridians: [FontPair](https://fontpair.co/) - A website to help you pair google font fonts  together
 - :globe_with_meridians: [styleguides.io](http://styleguides.io/) - A website showing example styleguides
+- :globe_with_meridians: [Tyffle](https://tyffle.ml) - Try google fonts blazing fast
 - :computer: [MyDevice](https://mydevice.io/devices/) - A web application that shows you the common widths of mobile devices
 - :computer: [Am i responsive](http://ami.responsivedesign.is/) - A screenshot generator for nice responsive image examples
 
@@ -149,6 +150,10 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :moneybag: [Photoshop](https://www.adobe.com/uk/products/photoshop.html) - SVG editing tool and website design software
 - :moneybag: [Sketch](https://www.sketchapp.com/) - MAC ONLY, SVG editing tool and website design software
 - :money_with_wings: [Figma](https://figma.com) - Cross-platform; Design, prototype, and gather feedback all in one place
+- :moneybag: [Adobe XD](https://www.adobe.com/in/products/xd.html) - UX design software application which supports vector design and wireframing, and creating simple interactive click-through prototypes
+- :money_with_wings: [InVision](https://www.invisionapp.com/) - Digital Product Design, Workflow and Collaboration
+- :moneybag: [Framer](https://framer.com) - MAC ONLY, Design and prototyping tool
+- :moneybag: [Principle](http://principleformac.com/) - MAC ONLY, design animated and interactive user interfaces
 
 ### TextEditors
 
@@ -177,6 +182,8 @@ This section is for training platforms which offer free/paid courses to learn de
 - :moneybag: [LambdaSchool](https://lambdaschool.com/mini-bootcamp/) - Free online bootcamp for front-end skills covering basic to advanced programming concepts, including HTML, CSS and JavaScript.
 - :free: [FreeCodeCamp](https://freecodecamp.com) - A community that helps you learn to code, then get experience by contributing to open source projects used by nonprofits.
 - :money_with_wings: [Codeschool](https://www.codeschool.com/) - A well structured interactive platform with learning paths.
+- :moneybag: [Egghead](https://egghead.io) - Learn the best JavaScript tools and frameworks from industry pros.
+
 #### Challenges
 
 - :moneybag: [Coderbyte](https://coderbyte.com) - A few free questions, but the majority of challenges are locked behind a paywall.
