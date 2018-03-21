@@ -137,6 +137,7 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :globe_with_meridians: [Flaticon](https://www.flaticon.com/) - A website for free and paid icons
 - :globe_with_meridians: [FontPair](https://fontpair.co/) - A website to help you pair google font fonts  together
 - :globe_with_meridians: [styleguides.io](http://styleguides.io/) - A website showing example styleguides
+- :globe_with_meridians: [Tyffle](https://tyffle.ml) - Try google fonts blazing fast
 - :computer: [MyDevice](https://mydevice.io/devices/) - A web application that shows you the common widths of mobile devices
 - :computer: [Am i responsive](http://ami.responsivedesign.is/) - A screenshot generator for nice responsive image examples
 
