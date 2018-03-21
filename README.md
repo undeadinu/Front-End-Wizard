@@ -149,6 +149,8 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :moneybag: [Illustrator](https://www.adobe.com/uk/products/illustrator.html) - SVG editing tool and website design software
 - :moneybag: [Photoshop](https://www.adobe.com/uk/products/photoshop.html) - SVG editing tool and website design software
 - :moneybag: [Sketch](https://www.sketchapp.com/) - MAC ONLY, SVG editing tool and website design software
+- :moneybag: [Framer](https://framer.com) - MAC ONLY, Design and prototyping tool
+- :moneybag: [Principle](http://principleformac.com/) - MAC ONLY, design animated and interactive user interfaces
 
 ### TextEditors
 
