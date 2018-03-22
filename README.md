@@ -183,6 +183,7 @@ This section is for training platforms which offer free/paid courses to learn de
 - :free: [FreeCodeCamp](https://freecodecamp.com) - A community that helps you learn to code, then get experience by contributing to open source projects used by nonprofits.
 - :money_with_wings: [Codeschool](https://www.codeschool.com/) - A well structured interactive platform with learning paths.
 - :moneybag: [Egghead](https://egghead.io) - Learn the best JavaScript tools and frameworks from industry pros.
+- :moneybag: [Lynda](https://lynda.com) - Learn software, creative, and business skills to achieve your personal and professional goals.
 
 #### Challenges
 
