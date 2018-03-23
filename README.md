@@ -111,6 +111,7 @@ Below is a list of frameworks, however this link is to another repository linkin
 - :link: [IOS Double tap fix](https://gist.github.com/johan/2047491) - A jQuery plugin to selectively disable the iOS double-tap-to-zoom action on specific page elements
 - :link: [tippyjs](https://github.com/atomiks/tippyjs) - A lightweight, vanilla JS tooltip library
 - :link: [JSON country list](http://www.phpied.com/files/countries/list.json) - JSON Country List
+- :link: [ESLint](https://eslint.org/) - The pluggable linting utility for JavaScript and JSX
 
 ## CSS-JS
 
