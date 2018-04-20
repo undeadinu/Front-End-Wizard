@@ -1,5 +1,5 @@
 var APP_PREFIX = 'FrontEndWizard'
-var VERSION = 'version_01'
+var VERSION = 'version_02'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            
   '/Front-End-Wizard/assets/images/FrontEndWizard.png',
