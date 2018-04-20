@@ -18,9 +18,108 @@
     <meta name="theme-color" content="#673AB7">
 </head>
 <body>
-    
-    <div class="container">
-        <h1>Front End Wizard</h1>
+    <header>
+        <div class="container mt-4">
+            <h1 class="text-center display-4">Front End Wizard</h1>
+        </div>
+    </header>
+
+    <section class="search mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 ">
+                    <div class="search__filter-list">
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="article" data-search-filter="article">
+                                <label class="form-check-label badge badge-pill badge-light" for="article">
+                                    Article
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="webapp" data-search-filter="webapp" data-search-filter="webapp">
+                                <label class="form-check-label badge badge-pill badge-light" for="webapp">
+                                    Web Application
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="website" data-search-filter="website">
+                                <label class="form-check-label badge badge-pill badge-light" for="website">
+                                    Website
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="softwareCheck" data-search-filter="software">
+                                <label class="form-check-label badge badge-pill badge-light" for="softwareCheck">
+                                    Software
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="code" data-search-filter="code">
+                                <label class="form-check-label badge badge-pill badge-light" for="code">
+                                    Gist / Code example / Repository
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <h2 class="h4">HTML</h3>
+                <hr>
+                <ul class="list-unstyled">
+                    <li data-search-result="article"><a href="https://gethead.info/">getHead</a></li>
+                    <li data-search-result="article"><a href="https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html">HTML form validation</a></li>
+                    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
+                    <li data-search-result="website"><a href="http://html5pattern.com/">HTML5Pattern</a></li>
+                    <li data-search-result="website"><a href="https://www.srihash.org/">srishash</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2 class="h4">CSS</h3>
+                <hr>
+                <ul class="list-unstyled">
+                    <li data-search-result="article"><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties">A visual guide to CSS flexbox</a></li>
+                    <li data-search-result="article"><a href="http://chrisdermody.com/animated-svg-loader-mydevportfol-io/">Animated SVG loader guide</a></li>
+                    <li data-search-result="article"><a href="https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries">Bootstrap 3 breakpoint media queries</a></li>
+                    <li data-search-result="article"><a href="http://codersblock.com/blog/checkbox-trickery-with-css/">Checkbox trickery with css</a></li>
+                    <li data-search-result="article"><a href="https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/">Versioning conflicts</a></li>
+                    <li data-search-result="article"><a href="https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/">Stack motion hover effects</a></li>
+                    <li data-search-result="article"><a href="https://j.eremy.net/confused-about-rem-and-em/">Confused about rem and em</a></li>
+                    <li data-search-result="website"><a href="https://flexbox.io/">Flexbox.io</a></li>
+                    <li data-search-result="website"><a href="https://cssgrid.io">cssgrid.io</a></li>
+                    <li data-search-result="website"><a href="https://daneden.github.io/animate.css/">Animate.css</a></li>
+                    <li data-search-result="website"><a href="http://getbem.com/">BEM CSS</a></li>
+                    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
+                    <li data-search-result="website"><a href="http://epic-spinners.epicmax.co/#/">Epic spinners</a></li>
+                    <li data-search-result="website"><a href="http://necolas.github.io/normalize.css/">Normalize.css</a></li>
+                    <li data-search-result="website"><a href="https://picturepan2.github.io/instagram.css/">Instagram.css</a></li>
+                    <li data-search-result="webapp"><a href="http://angrytools.com/css-generator/gradient/">Gradient generator (static)</a></li>
+                    <li data-search-result="webapp"><a href="https://www.gradient-animator.com/">Gradient generator (animated)</a></li>
+                    <li data-search-result="webapp"><a href="http://triangle.designyourcode.io/">Triangle generator</a></li>
+                    <li data-search-result="webapp"><a href="https://loading.io/spinner/">Loadin.io spinner</a></li>
+                    <li data-search-result="webapp"><a href="http://animista.net/">Animista</a></li>
+                    <li data-search-result="webapp"><a href="pleeease.io">http://pleeease.io/play/</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h2 class="h4">JS</h3>
+                <hr>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -29,6 +128,7 @@
             navigator.serviceWorker.register('/Front-End-Wizard/sw.js', {scope: '/Front-End-Wizard/'})
         }
     </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/scripts/master.js"></script> 
 </body>
