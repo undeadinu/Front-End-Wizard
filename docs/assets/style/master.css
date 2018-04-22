@@ -1,40 +1,8 @@
-/* Variables */
 :root {
-    --color-blue: #1da1f2;
-    --color-purple: #794bc4;
-    --color-dark: #34495e;
-}
-
-/* Search section */
+  --color-blue: #1da1f2;
+  --color-purple: #794bc4;
+  --color-dark: #34495e; }
 
 .search {
-    padding: 50px 0;
-    background-image: linear-gradient(135deg,var(--color-blue),var(--color-purple));
-}
-
-.search .badge {cursor: pointer;}
-
-.search__filter-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.search__filter-list input {display: none;}
-
-.search .badge {
-    transform: scale(1);
-    transition: color .1s, background-color .3s, transform .3s cubic-bezier(0.37, -0.65, 0.45, 1.51);
-}
-
-.search .badge:hover,
-.search input:checked + .badge {
-    background-color: var(--color-dark);
-    color: white;
-}
-
-.search .badge:hover {
-    transform: scale(1.15);
-}
-
-.search .form-check {padding-left: 0;}
+  padding: 50px 0;
+  background-image: linear-gradient(135deg, var(--color-blue), var(--color-purple)); }
