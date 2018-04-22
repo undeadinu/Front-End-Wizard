@@ -12,10 +12,12 @@ const dirs = {
 
 const paths = {
   sassSrc: `${dirs.src}/sass/master.scss`,
+  sassWatch: `${dirs.src}/sass/**/*.scss`,
   cssDist: `${dirs.dest}/assets/style/`,
   jsSrc: [
-    `${dirs.src}/scripts/master.js`
+    `${dirs.src}/scripts/search.js`
   ],
+  jsWatch: `${dirs.src}/scripts/**/*.js`,
   jsDist: `${dirs.dest}/assets/scripts/`
 };
 
@@ -30,4 +32,8 @@ gulp.task('scripts', () => {
   return gulp.src(paths.jsSrc)
   .pipe(concat('master.js'))
   .pipe(gulp.dest(paths.jsDist));
+});
+
+gulp.task('watch', () => {
+  gulp.watch([paths.sassWatch, paths.jsWatch], ['sass', 'scripts']);
 });
