@@ -37,3 +37,4 @@ gulp.task('scripts', () => {
 gulp.task('watch', () => {
   gulp.watch([paths.sassWatch, paths.jsWatch], ['sass', 'scripts']);
 });
+
