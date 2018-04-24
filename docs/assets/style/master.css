@@ -4,6 +4,11 @@
   --color-dark: #34495e;
   --animation-timing: .3s; }
 
+.header__img {
+  width: 125px;
+  display: block;
+  margin: 0 auto; }
+
 .search {
   padding: 50px 0;
   background-image: linear-gradient(135deg, var(--color-blue), var(--color-purple)); }
