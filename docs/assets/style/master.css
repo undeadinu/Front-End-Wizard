@@ -39,3 +39,37 @@
   color: white;
   -webkit-transform: scale(1.1);
           transform: scale(1.1); }
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end; }
+  @media only screen and (min-width: 576px) {
+    .social {
+      margin-top: 0; } }
+
+.social__icon-holder {
+  flex: 1;
+  display: flex; }
+  @media only screen and (min-width: 576px) {
+    .social__icon-holder {
+      justify-content: flex-end; } }
+
+.social__icon {
+  width: 40px; }
+
+.social__icon--large {
+  width: 30px; }
+
+.footer {
+  padding: 50px 0 40px 0;
+  background-image: linear-gradient(135deg, var(--color-blue), var(--color-purple)); }
+
+.footer-created {
+  display: flex; }
+
+.footer-created__img-holder {
+  padding-right: 15px; }
+
+.footer-created__img {
+  width: 75px; }
