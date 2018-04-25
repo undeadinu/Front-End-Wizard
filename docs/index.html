@@ -2,145 +2,181 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Front End Wizard</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style/master.css">
-    <link rel="canonical" href="https://kieranmv95.github.io/Front-End-Wizard/" />
-    <meta name="theme-color" content="#673AB7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Front End Wizard</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/style/master.css">
+<link rel="canonical" href="https://kieranmv95.github.io/Front-End-Wizard/" />
+<meta name="theme-color" content="#673AB7">
 </head>
 <body>
     <header>
-        <div class="container mt-4">
-            <img class="header__img mb-3" src="https://github.com/kieranmv95/Front-End-Wizard/blob/master/docs/assets/images/icons/icon-512x512.png?raw=true" alt="Front end wizard logo">
-            <h1 class="text-center display-4">Front End Wizard</h1>
-        </div>
-    </header>
-
+    <div class="container mt-4">
+        <img class="header__img mb-3" src="https://github.com/kieranmv95/Front-End-Wizard/blob/master/docs/assets/images/icons/icon-512x512.png?raw=true" alt="Front end wizard logo">
+        <h1 class="text-center display-4">Front End Wizard</h1>
+        <p class="text-center"><small class="badge badge-primary">v0.9.0</small></p>
+    </div>
+</header>
     <section class="search mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                    <p class="h5 text-center text-light"><span id="results-count"></span> links to explore</p>
-                    <div class="search__filter-list">
-                        <div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="article" data-search-filter="article">
-                                <label class="form-check-label badge badge-pill badge-light" for="article">
-                                    Article
-                                </label>
-                            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <p class="h5 text-center text-light"><span id="results-count"></span> links to explore</p>
+                <div class="search__filter-list">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="article" data-search-filter="article">
+                            <label class="form-check-label badge badge-pill badge-light" for="article">
+                                Article
+                            </label>
                         </div>
-                        <div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="webapp" data-search-filter="webapp" data-search-filter="webapp">
-                                <label class="form-check-label badge badge-pill badge-light" for="webapp">
-                                    Web Application
-                                </label>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="webapp" data-search-filter="webapp" data-search-filter="webapp">
+                            <label class="form-check-label badge badge-pill badge-light" for="webapp">
+                                Web Application
+                            </label>
                         </div>
-                        <div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="website" data-search-filter="website">
-                                <label class="form-check-label badge badge-pill badge-light" for="website">
-                                    Website
-                                </label>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="website" data-search-filter="website">
+                            <label class="form-check-label badge badge-pill badge-light" for="website">
+                                Website
+                            </label>
                         </div>
-                        <div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="softwareCheck" data-search-filter="software">
-                                <label class="form-check-label badge badge-pill badge-light" for="softwareCheck">
-                                    Software
-                                </label>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="softwareCheck" data-search-filter="software">
+                            <label class="form-check-label badge badge-pill badge-light" for="softwareCheck">
+                                Software
+                            </label>
                         </div>
-                        <div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="code" data-search-filter="code">
-                                <label class="form-check-label badge badge-pill badge-light" for="code">
-                                    Gist / Code example / Repository
-                                </label>
-                            </div>
+                    </div>
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="code" data-search-filter="code">
+                            <label class="form-check-label badge badge-pill badge-light" for="code">
+                                Gist / Code example / Repository
+                            </label>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-sm-4">
                 <h2 class="h4">HTML</h3>
-                <hr>
-                <ul class="list-unstyled">
-                    <li data-search-result="article"><a href="https://gethead.info/">getHead</a></li>
-                    <li data-search-result="article"><a href="https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html">HTML form validation</a></li>
-                    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
-                    <li data-search-result="website"><a href="http://html5pattern.com/">HTML5Pattern</a></li>
-                    <li data-search-result="website"><a href="https://www.srihash.org/">srishash</a></li>
-                </ul>
-
+<hr>
+<ul class="list-unstyled">
+    <li data-search-result="article"><a href="https://gethead.info/">getHead</a></li>
+    <li data-search-result="article"><a href="https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html">HTML form validation</a></li>
+    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
+    <li data-search-result="website"><a href="http://html5pattern.com/">HTML5Pattern</a></li>
+    <li data-search-result="website"><a href="https://www.srihash.org/">srishash</a></li>
+</ul>
                 <h2 class="h4">JS</h3>
-                <hr>
-                <ul class="list-unstyled">
-                    <li data-search-result="article"><a href="https://medium.com/@ryanchenkie_40935/angular-cli-deployment-host-your-angular-2-app-on-heroku-3f266f13f352">Deploy Angular 2 CLI app on heroku</a></li>
-                    <li data-search-result="website"><a href="https://nodemailer.com/about/">NodeMailer</a></li>
-                    <li data-search-result="website"><a href="https://kryogenix.org/code/browser/sorttable/">sorttable</a></li>
-                    <li data-search-result="website"><a href="https://sweetalert2.github.io/">sweetalert2</a></li>
-                    <li data-search-result="website"><a href="https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/">Your first PWA</a></li>
-                    <li data-search-result="code"><a href="https://gist.github.com/johan/2047491">IOS Double tap fix</a></li>
-                    <li data-search-result="code"><a href="https://github.com/atomiks/tippyjs">tippyjs</a></li>
-                    <li data-search-result="code"><a href="http://www.phpied.com/files/countries/list.json">JSON country list</a></li>
-                    <li data-search-result="code"><a href="https://eslint.org/">ESLint</a></li>
-                </ul>
+<hr>
+<ul class="list-unstyled">
+    <li data-search-result="article"><a href="https://medium.com/@ryanchenkie_40935/angular-cli-deployment-host-your-angular-2-app-on-heroku-3f266f13f352">Deploy Angular 2 CLI app on heroku</a></li>
+    <li data-search-result="website"><a href="https://nodemailer.com/about/">NodeMailer</a></li>
+    <li data-search-result="website"><a href="https://kryogenix.org/code/browser/sorttable/">sorttable</a></li>
+    <li data-search-result="website"><a href="https://sweetalert2.github.io/">sweetalert2</a></li>
+    <li data-search-result="website"><a href="https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/">Your first PWA</a></li>
+    <li data-search-result="code"><a href="https://gist.github.com/johan/2047491">IOS Double tap fix</a></li>
+    <li data-search-result="code"><a href="https://github.com/atomiks/tippyjs">tippyjs</a></li>
+    <li data-search-result="code"><a href="http://www.phpied.com/files/countries/list.json">JSON country list</a></li>
+    <li data-search-result="code"><a href="https://eslint.org/">ESLint</a></li>
+</ul>                
             </div>
             <div class="col-12 col-sm-4">
                 <h2 class="h4">CSS</h3>
-                <hr>
-                <ul class="list-unstyled">
-                    <li data-search-result="article"><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties">A visual guide to CSS flexbox</a></li>
-                    <li data-search-result="article"><a href="http://chrisdermody.com/animated-svg-loader-mydevportfol-io/">Animated SVG loader guide</a></li>
-                    <li data-search-result="article"><a href="https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries">Bootstrap 3 breakpoint media queries</a></li>
-                    <li data-search-result="article"><a href="http://codersblock.com/blog/checkbox-trickery-with-css/">Checkbox trickery with css</a></li>
-                    <li data-search-result="article"><a href="https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/">Versioning conflicts</a></li>
-                    <li data-search-result="article"><a href="https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/">Stack motion hover effects</a></li>
-                    <li data-search-result="article"><a href="https://j.eremy.net/confused-about-rem-and-em/">Confused about rem and em</a></li>
-                    <li data-search-result="website"><a href="https://flexbox.io/">Flexbox.io</a></li>
-                    <li data-search-result="website"><a href="https://cssgrid.io">cssgrid.io</a></li>
-                    <li data-search-result="website"><a href="https://daneden.github.io/animate.css/">Animate.css</a></li>
-                    <li data-search-result="website"><a href="http://getbem.com/">BEM CSS</a></li>
-                    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
-                    <li data-search-result="website"><a href="http://epic-spinners.epicmax.co/#/">Epic spinners</a></li>
-                    <li data-search-result="website"><a href="http://necolas.github.io/normalize.css/">Normalize.css</a></li>
-                    <li data-search-result="website"><a href="https://picturepan2.github.io/instagram.css/">Instagram.css</a></li>
-                    <li data-search-result="webapp"><a href="http://angrytools.com/css-generator/gradient/">Gradient generator (static)</a></li>
-                    <li data-search-result="webapp"><a href="https://www.gradient-animator.com/">Gradient generator (animated)</a></li>
-                    <li data-search-result="webapp"><a href="http://triangle.designyourcode.io/">Triangle generator</a></li>
-                    <li data-search-result="webapp"><a href="https://loading.io/spinner/">Loadin.io spinner</a></li>
-                    <li data-search-result="webapp"><a href="http://animista.net/">Animista</a></li>
-                    <li data-search-result="webapp"><a href="pleeease.io">http://pleeease.io/play/</a></li>
-                </ul>
+<hr>
+<ul class="list-unstyled">
+    <li data-search-result="article"><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties">A visual guide to CSS flexbox</a></li>
+    <li data-search-result="article"><a href="http://chrisdermody.com/animated-svg-loader-mydevportfol-io/">Animated SVG loader guide</a></li>
+    <li data-search-result="article"><a href="https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries">Bootstrap 3 breakpoint media queries</a></li>
+    <li data-search-result="article"><a href="http://codersblock.com/blog/checkbox-trickery-with-css/">Checkbox trickery with css</a></li>
+    <li data-search-result="article"><a href="https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/">Versioning conflicts</a></li>
+    <li data-search-result="article"><a href="https://tympanus.net/codrops/2017/03/15/stack-motion-hover-effects/">Stack motion hover effects</a></li>
+    <li data-search-result="article"><a href="https://j.eremy.net/confused-about-rem-and-em/">Confused about rem and em</a></li>
+    <li data-search-result="website"><a href="https://flexbox.io/">Flexbox.io</a></li>
+    <li data-search-result="website"><a href="https://cssgrid.io">cssgrid.io</a></li>
+    <li data-search-result="website"><a href="https://daneden.github.io/animate.css/">Animate.css</a></li>
+    <li data-search-result="website"><a href="http://getbem.com/">BEM CSS</a></li>
+    <li data-search-result="website"><a href="http://codeguide.co/">Code guide by Mdo</a></li>
+    <li data-search-result="website"><a href="http://epic-spinners.epicmax.co/#/">Epic spinners</a></li>
+    <li data-search-result="website"><a href="http://necolas.github.io/normalize.css/">Normalize.css</a></li>
+    <li data-search-result="website"><a href="https://picturepan2.github.io/instagram.css/">Instagram.css</a></li>
+    <li data-search-result="webapp"><a href="http://angrytools.com/css-generator/gradient/">Gradient generator (static)</a></li>
+    <li data-search-result="webapp"><a href="https://www.gradient-animator.com/">Gradient generator (animated)</a></li>
+    <li data-search-result="webapp"><a href="http://triangle.designyourcode.io/">Triangle generator</a></li>
+    <li data-search-result="webapp"><a href="https://loading.io/spinner/">Loadin.io spinner</a></li>
+    <li data-search-result="webapp"><a href="http://animista.net/">Animista</a></li>
+    <li data-search-result="webapp"><a href="pleeease.io">http://pleeease.io/play/</a></li>
+</ul>
             </div>
             <div class="col-12 col-sm-4">
                 <h2 class="h4">SASS</h3>
-                <hr>
-                <ul class="list-unstyled">
-                    <li data-search-result="article"><a href="https://scotch.io/tutorials/using-sass-with-the-angular-cli">Using SASS with the angular cli</a></li>
-                    <li data-search-result="website"><a href="https://sierra-library.github.io/">Sierra library</a></li>
-                    <li data-search-result="webapp"><a href="https://www.sassmeister.com/">SassMeister</a></li>
-                    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/99c5e4cb66ec76256b68600a5ee4e136">Spacing helper</a></li>
-                    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/cc4b711f86981469f06bff2d6c674004">Triangles Mixin</a></li>
-                    <li data-search-result="code"><a href="https://github.com/chandru89new/cards.sass">Cards UI</a></li>
-                    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/8c5ff7fd0324814dcf69568bb1be370b">No flex centerin</a></li>
-                </ul>
+<hr>
+<ul class="list-unstyled">
+    <li data-search-result="article"><a href="https://scotch.io/tutorials/using-sass-with-the-angular-cli">Using SASS with the angular cli</a></li>
+    <li data-search-result="website"><a href="https://sierra-library.github.io/">Sierra library</a></li>
+    <li data-search-result="webapp"><a href="https://www.sassmeister.com/">SassMeister</a></li>
+    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/99c5e4cb66ec76256b68600a5ee4e136">Spacing helper</a></li>
+    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/cc4b711f86981469f06bff2d6c674004">Triangles Mixin</a></li>
+    <li data-search-result="code"><a href="https://github.com/chandru89new/cards.sass">Cards UI</a></li>
+    <li data-search-result="code"><a href="https://gist.github.com/kieranmv95/8c5ff7fd0324814dcf69568bb1be370b">No flex centerin</a></li>
+</ul>
+                <h2 class="h4">CSS-JS</h3>
+<hr>
+<ul class="list-unstyled">
+    <li data-search-result="website"><a href="https://imperavi.com/kube/">Kube</a></li>
+    <li data-search-result="website"><a href="https://webkul.github.io/micron/">Micron</a></li>
+    <li data-search-result="website"><a href="https://fbrctr.github.io/">Fabricator</a></li>
+    <li data-search-result="website"><a href="https://stylelint.io/">Stylelint</a></li>
+    <li data-search-result="webapp"><a href="https://www.caniuse.com/">CanIUse</a></li>
+</ul>
             </div>
         </div>
     </div>
-
+    <footer class="footer mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-8">
+                <div class="footer-created">
+                    <div class="footer-created__img-holder">
+                        <img class="footer-created__img" src="https://avatars3.githubusercontent.com/u/6731486?s=400&u=44a558ebcabd83f60897a9596906bbef7f86a459&v=4" >
+                    </div>
+                    <div class="footer-created__text">
+                        <p class="h6 text-light">Front end wizard</p>
+                        <p class="text-light">Created with love by Kieran Venison</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-sm-4 col-md-3 offset-md-1 col-lg-2 offset-lg-2">
+                <div class="social">
+                    <div class="social__icon-holder">
+                        <a href="https://twitter.com/kieranmv95?lang=en-gb" target="_blank"><img src="assets/images/social/tw.svg" class="social__icon"></a>
+                    </div>
+                    <div class="social__icon-holder">
+                        <a href="https://github.com/kieranmv95" target="_blank"><img src="assets/images/social/gh.svg" class="social__icon"></a>
+                    </div>
+                    <div class="social__icon-holder">
+                        <a href="https://www.linkedin.com/in/kieran-venison-9a4aa292/" target="_blank"><img src="assets/images/social/li.svg" class="social__icon social__icon--large"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/scripts/master.js"></script> 
+<script src="assets/scripts/master.js"></script> 
 </body>
 </html>
