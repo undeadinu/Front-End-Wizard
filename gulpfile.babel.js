@@ -27,7 +27,7 @@ const paths = {
 
 gulp.task('sass', () => {
   gulp.src(paths.sassSrc)
-    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest(paths.cssDist));
 });
