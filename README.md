@@ -125,7 +125,8 @@ Below is a list of frameworks, however this link is to another repository linkin
 ## Icons-SVG
 
 - :globe_with_meridians: [simplesvg](https://simplesvg.com/icon-sets/) - SVG base icon sets
-- :globe_with_meridians: [octicons](https://octicons.github.com/) - "Your project. GitHub's icons."
+- :globe_with_meridians: [octicons](https://octicons.github.com/) - Your project. GitHub's icons.
+- :globe_with_meridians: [unDraw](https://undraw.co/) - Updated collection of SVG images that you can use for free.
 
 ## UX-Design
 
