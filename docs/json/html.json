@@ -1,14 +1,12 @@
-{
-    "links": [
-        {
-            "title": "GetHead",
-            "description": "A guide to head elements",
-            "url": "https://gethead.info/"
-        },
-        {
-            "title": "HTML form validation",
-            "description": "https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html",
-            "url": "Reference and guide about html form validation"
-        }
-    ]
-}
+"links": [
+    {
+        "title": "GetHead",
+        "description": "A guide to head elements",
+        "url": "https://gethead.info/"
+    },
+    {
+        "title": "HTML form validation",
+        "description": "https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html",
+        "url": "Reference and guide about html form validation"
+    }
+]
