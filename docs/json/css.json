@@ -1,0 +1,131 @@
+
+{
+    "links": [
+        {
+            "title": "A visual guide to CSS flexbox",
+            "description": "A guide on using flexbox",
+            "url": "https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties",
+            "type": "article"
+        },
+        {
+            "title": "Animated SVG loader guide",
+            "description": "How to make an animated SVG loading symbol",
+            "url": "http://chrisdermody.com/animated-svg-loader-mydevportfol-io/",
+            "type": "article"
+        },
+        {
+            "title": "Bootstrap 3 breakpoint media queries",
+            "description": "A list of media queries used by bootstrap 3",
+            "url": "https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries",
+            "type": "article"
+        },
+        {
+            "title": "Checkbox trickery with css",
+            "description": "Make custom Checkboxes with CSS",
+            "url": "http://codersblock.com/blog/checkbox-trickery-with-css/",
+            "type": "article"
+        },
+        {
+            "title": "Versioning conflicts",
+            "description": "Solving CSS versioning conflicts",
+            "url": "https://blog.newrelic.com/2017/07/27/css-versioning-conflicts/",
+            "type": "article"
+        },
+        {
+            "title": "Experimental hover effects that reveal stacks of colored cards",
+            "description": "Stack motion hover effects",
+            "url": "Experimental hover effects that reveal stacks of colored cards",
+            "type": "article"
+        },
+        {
+            "title": "Confused about rem and em",
+            "description": "Wrapping your head around rem and em article",
+            "url": "https://j.eremy.net/confused-about-rem-and-em/",
+            "type": "article"
+        },
+        {
+            "title": "Flexbox.io",
+            "description": "Free 20 video course that will help you master CSS Flexbox!",
+            "url": "https://flexbox.io/",
+            "type": "website"
+        },
+        {
+            "title": "Cssgrid.io",
+            "description": "Learn CSS Grid with Wes Bos in 25 pretty good videos!",
+            "url": "https://cssgrid.io",
+            "type": "website"
+        },
+        {
+            "title": "Animate.css",
+            "description": "A cross-browser library of CSS animations",
+            "url": "https://daneden.github.io/animate.css/",
+            "type": "website"
+        },
+        {
+            "title": "BEM CSS",
+            "description": "A CSS methodology that helps you to create reusable components",
+            "url": "http://getbem.com/",
+            "type": "website"
+        },
+        {
+            "title": "Code guide by MDO",
+            "description": "An HTML and CSS code guide for better structure",
+            "url": "http://codeguide.co/",
+            "type": "website"
+        },
+        {
+            "title": "Epic spinners",
+            "description": "Pure CSS and html loading spinners",
+            "url": "http://epic-spinners.epicmax.co/#/",
+            "type": "website"
+        },
+        {
+            "title": "Normalize css",
+            "description": "A modern alternative to CSS resets",
+            "url": "http://necolas.github.io/normalize.css/",
+            "type": "website"
+        },
+        {
+            "title": "Instagram CSS",
+            "description": "Pure CSS instagram filters",
+            "url": "https://picturepan2.github.io/instagram.css/",
+            "type": "website"
+        },
+        {
+            "title": "Gradient generator (static)",
+            "description": "Web application to make gradients",
+            "url": "http://angrytools.com/css-generator/gradient/",
+            "type": "webapp"
+        },
+        {
+            "title": "Gradient generator (animated)",
+            "description": "Web application to make animated gradients",
+            "url": "https://www.gradient-animator.com/",
+            "type": "webapp"
+        },
+        {
+            "title": "Triangle generator",
+            "description": "CSS triangle generator",
+            "url": "http://triangle.designyourcode.io/",
+            "type": "webapp"
+        },
+        {
+            "title": "Loading.io",
+            "description": "Custom loading animations",
+            "url": "https://loading.io/spinner/",
+            "type": "webapp"
+        },
+        {
+            "title": "Animista",
+            "description": "Custom CSS animations generator",
+            "url": "http://animista.net/",
+            "type": "webapp"
+        },
+        {
+            "title": "pleeease.io",
+            "description": "CSS Autoprefixer",
+            "url": "http://pleeease.io/play/",
+            "type": "webapp"
+        }
+    ]
+}

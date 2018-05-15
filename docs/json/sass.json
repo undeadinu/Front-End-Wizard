@@ -1,0 +1,47 @@
+
+{
+    "links": [
+        {
+            "title": "Using SASS with the angular cli",
+            "description": "A guide on using SASS with the nagular CLI",
+            "url": "https://scotch.io/tutorials/using-sass-with-the-angular-cli",
+            "type": "article"
+        },
+        {
+            "title": "Sierra library",
+            "description": "The smallest and lightest SCSS library",
+            "url": "https://sierra-library.github.io/",
+            "type": "website"
+        },
+        {
+            "title": "SassMeister",
+            "description": "A web based playground for testing Sass creations",
+            "url": "https://www.sassmeister.com/",
+            "type": "webapp"
+        },
+        {
+            "title": "Spacing helper",
+            "description": "Customizable SCSS class generator for spacing units in web",
+            "url": "https://gist.github.com/kieranmv95/99c5e4cb66ec76256b68600a5ee4e136",
+            "type": "code"
+        },
+        {
+            "title": "Triangles Mixin",
+            "description": "SCSS mixin to instantly make pure css triangles",
+            "url": "https://gist.github.com/kieranmv95/cc4b711f86981469f06bff2d6c674004",
+            "type": "code"
+        },
+        {
+            "title": "Cards UI",
+            "description": "Easy-to-use card UI for your app / project / website design",
+            "url": "https://github.com/chandru89new/cards.sass",
+            "type": "code"
+        },
+        {
+            "title": "Center anything (without flex)",
+            "description": "SASS mixin to center anything without flex",
+            "url": "https://gist.github.com/kieranmv95/8c5ff7fd0324814dcf69568bb1be370b",
+            "type": "code"
+        }
+    ]
+}

@@ -1,14 +1,35 @@
+
 {
     "links": [
         {
             "title": "GetHead",
             "description": "A guide to &lt;head> elements",
-            "url": "https://gethead.info/"
+            "url": "https://gethead.info/",
+            "type": "article"
         },
         {
             "title": "HTML form validation",
-            "description": "https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html",
-            "url": "Reference and guide about html form validation"
+            "description": "Reference and guide about html form validation",
+            "url": "https://pageclip.co/blog/2018-02-20-you-should-use-html5-form-validation.html",
+            "type": "article"
+        },
+        {
+            "title": "Code guide by Mdo",
+            "description": "A HTML and CSS code guide for better structure",
+            "url": "http://codeguide.co/",
+            "type": "website"
+        },
+        {
+            "title": "HTML5Pattern",
+            "description": "HTML5Pattern is a source of regularly used Input-Patterns",
+            "url": "http://html5pattern.com/",
+            "type": "website"
+        },
+        {
+            "title": "srihash",
+            "description": "SRI Hash generator",
+            "url": "https://www.srihash.org/",
+            "type": "website"
         }
     ]
 }

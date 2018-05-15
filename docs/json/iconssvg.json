@@ -1,0 +1,23 @@
+
+{
+    "links": [
+        {
+            "title": "SimpleSVG",
+            "description": "SVG base icons set",
+            "url": "https://simplesvg.com/icon-sets/",
+            "type": "website"
+        },
+        {
+            "title": "Octicons",
+            "description": "Your project, Github's icons",
+            "url": "https://octicons.github.com/",
+            "type": "website"
+        },
+        {
+            "title": "unDraw",
+            "description": "Update collection of SVG imamges that you can use for free",
+            "url": "https://undraw.co/",
+            "type": "website"
+        }
+    ]
+}

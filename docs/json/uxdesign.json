@@ -1,0 +1,83 @@
+
+{
+    "links": [
+        {
+            "title": "Creating usability with motion guide",
+            "description": "How to use motion correctly",
+            "url": "https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc",
+            "type": "article"
+        },
+        {
+            "title": "How microinteractions improve ux",
+            "description": "How to improve UX",
+            "url": "https://www.invisionapp.com/blog/use-microinteractions-improve-ux-design/",
+            "type": "article"
+        },
+        {
+            "title": "Sketching Interfaces",
+            "description": "How to plan and sketh interfaces",
+            "url": "https://airbnb.design/sketching-interfaces/",
+            "type": "article"
+        },
+        {
+            "title": "7 Practical Tips for Cheating at Design",
+            "description": "7 Practical Tips for Cheating at Design",
+            "url": "https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886",
+            "type": "article"
+        },
+        {
+            "title": "Stop stealing sheep",
+            "description": "A book on how to typography",
+            "url": "https://www.amazon.co.uk/Stop-Stealing-Sheep-Find-Works/dp/0201703394",
+            "type": "article"
+        },
+        {
+            "title": "Dribbble",
+            "description": "A website which offers design inspiration",
+            "url": "https://dribbble.com/",
+            "type": "website"
+        },
+        {
+            "title": "Goodweb",
+            "description": "A website which offers design inspiration",
+            "url": "http://www.goodweb.design/",
+            "type": "website"
+        },
+        {
+            "title": "Flaticon",
+            "description": "A website for free and paid icons",
+            "url": "https://www.flaticon.com/",
+            "type": "website"
+        },
+        {
+            "title": "FontPair",
+            "description": "A website for pairing google fonts together",
+            "url": "https://fontpair.co/",
+            "type": "website"
+        },
+        {
+            "title": "Styleguides.io",
+            "description": "A website showing example styleguides",
+            "url": "http://styleguides.io/",
+            "type": "website"
+        },
+        {
+            "title": "Tyffle",
+            "description": "Try google fonts blazing fast",
+            "url": "https://tyffle.ml",
+            "type": "website"
+        },
+        {
+            "title": "MyDevice",
+            "description": "Common widths of mobile devices",
+            "url": "https://mydevice.io/devices/",
+            "type": "webapp"
+        },
+        {
+            "title": "Am I responsive",
+            "description": "A screenshot generator for responsive image examples",
+            "url": "http://ami.responsivedesign.is/",
+            "type": "webapp"
+        }
+    ]
+}

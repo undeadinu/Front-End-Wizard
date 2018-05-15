@@ -1,0 +1,59 @@
+
+{
+    "links": [
+        {
+            "title": "Deploy Angular 2 CLI app on heroku",
+            "description": "How to deploy Angular 2 CLI app on heroku",
+            "url": "https://medium.com/@ryanchenkie_40935/angular-cli-deployment-host-your-angular-2-app-on-heroku-3f266f13f352",
+            "type": "article"
+        },
+        {
+            "title": "Nodemailer",
+            "description": "Easy as cake email sending",
+            "url": "https://nodemailer.com/about/",
+            "type": "website"
+        },
+        {
+            "title": "sorttable",
+            "description": "VanillaJS table-sorting plugin",
+            "url": "https://kryogenix.org/code/browser/sorttable/",
+            "type": "website"
+        },
+        {
+            "title": "SweetAlert2",
+            "description": "Replacement for JavaScript's popup boxes.",
+            "url": "https://sweetalert2.github.io/",
+            "type": "website"
+        },
+        {
+            "title": "Your first PWA",
+            "description": "A tutorial for creating your first PWA",
+            "url": "https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/",
+            "type": "website"
+        },
+        {
+            "title": "IOS double tap fix",
+            "description": "A jQuery plugin to selectively disable the iOS double-tap-to-zoom",
+            "url": "https://gist.github.com/johan/2047491",
+            "type": "code"
+        },
+        {
+            "title": "TippyJS",
+            "description": "A lightweight, vanilla JS tooltip library",
+            "url": "https://github.com/atomiks/tippyjs",
+            "type": "code"
+        },
+        {
+            "title": "JSON country list",
+            "description": "An updated JSON Country List",
+            "url": "http://www.phpied.com/files/countries/list.json",
+            "type": "code"
+        },
+        {
+            "title": "ESlint",
+            "description": "The pluggable linting utility for JS and JSX",
+            "url": "https://eslint.org/",
+            "type": "code"
+        }
+    ]
+}
