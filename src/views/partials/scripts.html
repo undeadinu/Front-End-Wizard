@@ -1,35 +1,117 @@
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-       var lazyImages = [].slice.call(document.querySelectorAll("img[data-src]"));
-
-       if ("IntersectionObserver" in window) {
-           var lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-               entries.forEach(function(entry) {
-                   if (entry.isIntersecting) {
-                       var lazyImage = entry.target;
-                       lazyImage.src = lazyImage.dataset.src;
-                       lazyImage.onload = function() {
-                           lazyImage.removeAttribute('data-src');
-                           lazyImageObserver.unobserve(lazyImage);
-                       }
-                   }
-                   
-               });
-           });
-
-           lazyImages.forEach(function(lazyImage) {
-               lazyImageObserver.observe(lazyImage);
-           });
-       } else {
-           [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-               img.setAttribute('src', img.getAttribute('data-src'));
-               img.onload = function() {
-                   img.removeAttribute('data-src');
-               };
-           });
-       }
-   });
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/scripts/misc/lazyLoad.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
-<script src="assets/scripts/master.js"></script> 
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js"></script>
+
+<!--REACT-->
+<script type="text/babel">
+    class App extends React.Component {
+        render() {
+            return (
+                <div>
+                    <Search />
+                    <div className="container mt-5">
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
+                                <Topic name="HTML" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/html.json"/>
+                                <Topic name="SASS" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/sass.json"/>
+                                <Topic name="CSS" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/css.json"/>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <Topic name="JS" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/js.json"/>
+                                <Topic name="CSS/JS" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/cssjs.json"/>
+                                <Topic name="ICONS/SVG" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/iconssvg.json"/>
+                                <Topic name="UX/DESIGN" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/uxdesign.json"/>
+                                <Topic name="MISCELLANEOUS" jsonurl="https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/docs/json/misc.json"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )
+        }
+    }
+
+    class Search extends React.Component {
+        render() {
+
+            return (
+                <section className="search mt-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                                <p className="h5 text-center text-light">Search coming soon</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )
+        }
+    }
+
+    class Topic extends React.Component {
+
+        constructor() {
+            super();
+            this.state = {
+                listItems: [],
+            }
+        }
+
+        componentDidMount() {
+            fetch(this.props.jsonurl)
+            .then(results => {
+                return results.json();
+            })
+            .then(data => {
+                let listItems = data.links.map((links) => {
+
+                    let articleType = links.type;
+                    switch(articleType) {
+                        case "article":
+                            articleType = "fa-book";
+                            break;
+                        case "website":
+                            articleType = "fa-globe";
+                            break;
+                        case "code":
+                            articleType = "fa-code";
+                            break;
+                        case "webapp":
+                            articleType = "fa-cogs";
+                            break;
+                        default:
+                            console.log(`${articleType} not found`);
+                    }
+
+                    return (
+                        <li data-search-result={links.type}>
+                            <a rel="noopener" target="_blank" href={links.url} className="article-block">
+                                <i className={`fas ${articleType} article-block__icon`}></i>
+                                <div className="article-block__text">
+                                    <p className="article-block__text-title">{links.title}</p>
+                                    <p className="article-block__text-description">{links.description}</p>
+                                </div>
+                            </a>
+                        </li>
+                    )
+                })
+                this.setState({listItems: listItems});
+            })
+        }
+
+        render() {
+            return(
+                <div>
+                    <h2 className="h4">{this.props.name}</h2>
+                    <hr />
+                    <ul className="list-unstyled">
+                        {this.state.listItems}
+                    </ul>
+                </div>
+            )
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById('app'));
+</script>
