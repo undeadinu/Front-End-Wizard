@@ -2,6 +2,7 @@
   "data": [
     {
       "name": "CSS",
+      "keywords: "CSS cascading style sheet style",
       "links": [
         {
           "title": "A visual guide to CSS flexbox",
@@ -133,6 +134,7 @@
     },
     {
       "name": "JS",
+      "keywords: "Javascript js java script scripting",
       "links": [
         {
             "title": "Deploy Angular 2 CLI app on heroku",
@@ -192,6 +194,7 @@
     },
     {
       "name": "HTML",
+      "keywords: "hypertext markup language html",
       "links": [
         {
             "title": "GetHead",
@@ -227,6 +230,7 @@
     },
     {
       "name": "CSS/JS",
+      "keywords: "CSS JS javascript script cascading style sheet cssinjs jsincss style",
       "links": [
         {
             "title": "Kube",
@@ -262,6 +266,7 @@
     },
     {
       "name": "SASS",
+      "keywords: "SASS SCSS syntactically awesome style sheets",
       "links": [
         {
           "title": "Using SASS with the angular cli",
@@ -332,6 +337,7 @@
     },
     {
       "name": "Misc",
+      "keywords: "miscellaneous other random",
       "links": [
         {
           "title": "Git commit",
@@ -355,6 +361,7 @@
     },
     {
       "name": "UX/DESIGN",
+      "keywords: "ux design designer user experience users",
       "links": [
         {
             "title": "Creating usability with motion guide",
