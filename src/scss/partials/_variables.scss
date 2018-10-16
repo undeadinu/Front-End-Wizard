@@ -1,0 +1,13 @@
+:root {
+
+  // Colours
+  --color-blue: #1da1f2;
+  --color-purple: #794bc4;
+  --color-dark: #34495e;
+
+  // Animations
+  --animation-timing: .3s;
+}
+
+// Susy specific breakpoints for mixins
+$bp-sm: 576px;

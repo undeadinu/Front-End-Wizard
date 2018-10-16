@@ -1,8 +1,0 @@
-// m for media
-// nice little breakpoint to save me some time
-
-@mixin m-breakpoint($bp) {
-    @media only screen and (min-width: $bp) {
-        @content;
-    }
-}
