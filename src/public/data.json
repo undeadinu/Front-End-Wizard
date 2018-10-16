@@ -361,6 +361,120 @@
       ]
     },
     {
+      "name": "CSS FRAMEWORKS",
+      "keywords": "css frameworks library template",
+      "links": [
+        {
+          "title": "Purecss.io",
+          "description": "A set of small, responsive CSS modules that you can use in every web project.",
+          "url": "https://purecss.io/",
+          "type": "website"
+        },
+        {
+          "title": "minii.css",
+          "description": "A minimal CSS framework designed to be all you need.",
+          "url": "https://minii.finleycorrigan.com/",
+          "type": "website"
+        },
+        {
+          "title": "spectre",
+          "description": "A Lightweight, Responsive and Modern CSS Framework",
+          "url": "https://picturepan2.github.io/spectre/",
+          "type": "website"
+        },
+        {
+          "title": "GetSkeleton",
+          "description": "A dead simple, responsive boilerplate.",
+          "url": "http://getskeleton.com/",
+          "type": "website"
+        },
+        {
+          "title": "Bulma",
+          "description": "CSS framework based on Flexbox",
+          "url": "https://bulma.io/",
+          "type": "website"
+        },
+        {
+          "title": "Material Design lite",
+          "description": "Material Design Lite",
+          "url": "https://getmdl.io/index.html",
+          "type": "website"
+        },
+        {
+          "title": "materialize",
+          "description": "A responsive front-end framework based on Material Design",
+          "url": "http://materializecss.com/",
+          "type": "website"
+        },
+        {
+          "title": "Ulkit",
+          "description": "Front-end framework for developing fast and powerful web interfaces.",
+          "url": "https://getuikit.com/",
+          "type": "website"
+        },
+        {
+          "title": "semantic-ui",
+          "description": "Semantic is a development framework that helps create beautiful, responsive layouts",
+          "url": "https://semantic-ui.com/",
+          "type": "website"
+        },
+        {
+          "title": "base",
+          "description": "Lightweight and minimal code.",
+          "url": "http://getbase.org/",
+          "type": "website"
+        },
+        {
+          "title": "webui",
+          "description": "A fully responsive CSS framework for modern browsers",
+          "url": "https://asyncdesign.github.io/webui/index.html",
+          "type": "website"
+        },
+        {
+          "title": "tachyons",
+          "description": "100% responsive interfaces with as little CSS as possible",
+          "url": "http://tachyons.io/",
+          "type": "website"
+        },
+        {
+          "title": "rocketcss",
+          "description": "A framework that helps build clean, efficient and responsive websites.",
+          "url": "http://rocketcss.org/",
+          "type": "website"
+        },
+        {
+          "title": "cutestrap",
+          "description": "A sassy, opinionated CSS Framework. A tiny alternative to Bootstrap.",
+          "url": "https://www.cutestrap.com/",
+          "type": "website"
+        },
+        {
+          "title": "blazeui",
+          "description": "CSS modular toolkit",
+          "url": "https://www.blazeui.com/",
+          "type": "website"
+        },
+        {
+          "title": "karmacss",
+          "description": "Karma CSS is a great starting point if you only want a barebones boilerplate",
+          "url": "https://karmacss.com/",
+          "type": "website"
+        },
+        {
+          "title": "mini.css",
+          "description": "Minimal, responsive, style-agnostic CSS framework",
+          "url": "https://minicss.org/",
+          "type": "website"
+        },
+        {
+          "title": "Bootstrap build",
+          "description": "Bootstrap 4 Builder and customization",
+          "url": "https://bootstrap.build/app/v4.0/",
+          "type": "webapp"
+        }
+      ]
+    },
+    {
       "name": "UX/DESIGN",
       "keywords": "ux design designer user experience users",
       "links": [
