@@ -23,3 +23,10 @@ yarn-error.log*
 # ide
 .idea/
 .vscode/
+
+#builds
+
+/build
+/docs
+/doc
+/builds
