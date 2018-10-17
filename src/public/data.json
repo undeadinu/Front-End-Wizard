@@ -143,6 +143,12 @@
       "keywords": "Javascript js java script scripting",
       "links": [
         {
+          "title": "Cache your React event listeners to improve performance",
+          "description": "Improve performance by following some simple react caching tips",
+          "url": "https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15",
+          "type": "article"
+        },
+        {
           "title": "Rellax JS",
           "description": "Rellax is a simple and lightweight parralax scrolling library",
           "url": "https://dixonandmoe.com/rellax/",
