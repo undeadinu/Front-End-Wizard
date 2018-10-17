@@ -4,6 +4,7 @@ import kieranlogo from '../../images/kieranlogo.png';
 import twitter from '../../images/twitter.svg';
 import github from '../../images/github.svg';
 import linkedin from '../../images/linkedin.svg';
+import Contributors from "../Contributers";
 
 const Footer = () => (
   <footer className="footer mt-5">
@@ -12,11 +13,13 @@ const Footer = () => (
         <div className="col-12 col-sm-8">
           <div className="footer-created">
             <div className="footer-created__img-holder">
-              <img className="footer-created__img" src={kieranlogo} alt="kieran venison logo" />
+              <a href="http://kieranvenison.co.uk" target="_blank">
+                <img className="footer-created__img" src={kieranlogo} alt="kieran venison logo" />
+              </a>
             </div>
             <div className="footer-created__text">
               <p className="h6 text-light">Front end wizard</p>
-              <p className="text-light">Created with love by Kieran Venison</p>
+              <p className="text-light">Created with love by <a href="http://kieranvenison.co.uk" target="_blank" className="text-light">Kieran Venison</a></p>
             </div>
           </div>
         </div>
@@ -40,6 +43,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
+      <Contributors />
     </div>
   </footer>
 );
