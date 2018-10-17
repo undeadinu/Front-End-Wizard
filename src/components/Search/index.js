@@ -15,6 +15,7 @@ const Search = ({ filterTerm, updateFilter }) => (
               type="text"
               value={filterTerm}
               onChange={event => updateFilter(event.target.value)}
+              autoComplete="off"
             />
           </div>
         </div>
