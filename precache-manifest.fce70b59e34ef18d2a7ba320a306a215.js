@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Front-End-Wizard/static/media/logo.975c78c5.png"
   },
   {
-    "revision": "cdcfaf8cc39f47066de0",
+    "revision": "e488d75f85202059291b",
     "url": "/Front-End-Wizard/static/css/main.02ce94fd.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = [
     "url": "/Front-End-Wizard/static/media/linkedin.daf50317.svg"
   },
   {
-    "revision": "a61040cf4aa63eaf36a1",
-    "url": "/Front-End-Wizard/static/js/1.a61040cf.chunk.js"
+    "revision": "f51016fcd73c7c0918a3",
+    "url": "/Front-End-Wizard/static/js/1.f51016fc.chunk.js"
   },
   {
     "revision": "7ec0def39fcaa2454c34",
     "url": "/Front-End-Wizard/static/js/runtime~main.7ec0def3.js"
   },
   {
-    "revision": "cdcfaf8cc39f47066de0",
-    "url": "/Front-End-Wizard/static/js/main.cdcfaf8c.chunk.js"
+    "revision": "e488d75f85202059291b",
+    "url": "/Front-End-Wizard/static/js/main.e488d75f.chunk.js"
   },
   {
     "revision": "343abe0f2d68a1ea562a4ee3c5473fe4",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/Front-End-Wizard/static/media/github.c4542b9f.svg"
   },
   {
-    "revision": "a61040cf4aa63eaf36a1",
+    "revision": "f51016fcd73c7c0918a3",
     "url": "/Front-End-Wizard/static/css/1.b762ec49.chunk.css"
   },
   {
-    "revision": "1af210e9e881f3b66bffc3a414d008b8",
+    "revision": "2fe6aca4ad25f5d2702063b0099e8f84",
     "url": "/Front-End-Wizard/index.html"
   }
 ];
