@@ -7,7 +7,7 @@ import linkedin from '../../images/linkedin.svg';
 import Contributors from "../Contributers";
 
 const Footer = () => (
-  <footer className="footer mt-5">
+  <footer className="footer">
     <div className="container">
       <div className="row">
         <div className="col-12 col-sm-8">

@@ -7,24 +7,6 @@
   );
 }
 
-.footer-created {
-  display: flex;
-}
-
-.footer-created__text,
-.footer-created__img-holder {
-
-}
-
-.footer-created__text {
-
-}
-
-.footer-created__img-holder {
-  padding-right: 15px;
-}
-
-
-.footer-created__img {
-  width: 75px;
-}
+.footer-created { display: flex; }
+.footer-created__img-holder { padding-right: 15px; }
+.footer-created__img { width: 75px; }

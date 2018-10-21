@@ -7,6 +7,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import TopicGroup from "./TopicGroup";
 import Search from "./Search";
+import LoadingSpinner from './LoadingSpinner'
+import NoResults from "./NoResults";
 
 class App extends Component {
 
@@ -71,22 +73,18 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Search updateFilter={this.updateFilter} filterTerm={filterTerm} />
 
-        {loading &&
-          <div>Loading...</div>
-        }
+        {loading && <LoadingSpinner />}
+        {error && <div>Error fetching data...</div>}
 
-        {error &&
-          <div>Error fetching data...</div>
-        }
-
-        {!loading && !error &&
-          <Search updateFilter={this.updateFilter} filterTerm={filterTerm} />
-        }
         <div className="container mt-5">
-          {!loading && !error && filteredArray.map(group => (
+          {!loading && !error && filteredArray.length > 0 && filteredArray.map(group => (
             <TopicGroup key={group.name} data={group} />
           ))}
+          {!loading && !error && filteredArray.length === 0 &&
+            <NoResults searchTerm={filterTerm} />
+          }
         </div>
         <Footer />
       </div>
