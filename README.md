@@ -3,6 +3,8 @@
 </h1>
 <hr/>
 
+This list is outdated and will shortly be removed. To keep updated with the links please go to the [Go to the website](https://kieranmv95.github.io/Front-End-Wizard/).
+
 # Front end wizard
 [Go to the site where you can filter options](https://kieranmv95.github.io/Front-End-Wizard/)
 
