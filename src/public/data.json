@@ -5,6 +5,13 @@
       "keywords": "CSS cascading style sheet style",
       "links": [
         {
+          "title": "Getting to know a legacy codebase",
+          "description": "How to start understanding a legacy CSS codebase",
+          "url": "https://csswizardry.com/2018/07/getting-to-know-a-legacy-codebase/",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
           "title": "A visual guide to CSS flexbox",
           "description": "A guide on using flexbox",
           "url": "https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties",
@@ -142,6 +149,41 @@
       "name": "JS",
       "keywords": "Javascript js java script scripting",
       "links": [
+        {
+          "title": "Demystifying webpack",
+          "description": "Get around the confusing learning curve of webpack",
+          "url": "https://dev.to/sadarshannaiynar/demystifying-webpack-2f5n",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
+          "title": "Using data in React with the Fetch API and axios",
+          "description": "As you build React applications, you will run into lots of scenarios where you want to handle data from an API.",
+          "url": "https://css-tricks.com/using-data-in-react-with-the-fetch-api-and-axios/",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
+          "title": "10 JavaScript string methods you should know",
+          "description": "In this post I will summarize 10 javascript string methods you should at least known according to me.",
+          "url": "https://dev.to/frugencefidel/10-javascript-string-methods-you-should-know-4l76",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
+          "title": "6 Fun React Projects You Can Build Today",
+          "description": "6 Projects you can build with React to help learn it",
+          "url": "https://daveceddia.com/react-practice-projects/",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
+          "title": "libreact",
+          "description": "React standard library—must-have toolbox for any React project.",
+          "url": "https://github.com/streamich/libreact",
+          "type": "code",
+          "date": "October 23, 2018"
+        },
         {
           "title": "Cache your React event listeners to improve performance",
           "description": "Improve performance by following some simple react caching tips",
@@ -365,6 +407,13 @@
       "keywords": "miscellaneous other random",
       "links": [
         {
+          "title": "Are you a happy developer",
+          "description": "If you still haven’t found the happiness between your code lines, this text may be helpful to you!",
+          "url": "https://dev.to/jlozovei/are-you-a-happy-developer-4aok",
+          "type": "article",
+          "date": "October 23, 2018"
+        },
+        {
           "title": "Git commit",
           "description": "How to write a good git commit message",
           "url": "https://chris.beams.io/posts/git-commit/",
@@ -502,6 +551,13 @@
       "name": "UX/DESIGN",
       "keywords": "ux design designer user experience users",
       "links": [
+        {
+          "title": "Web typography resources",
+          "description": "A growing list of web typography related apps, tools, plugins and other resources for web designers and web developers.",
+          "url": "https://betterwebtype.com/web-typography-resources",
+          "type": "website",
+          "date": "October 23, 2018"
+        },
         {
           "title": "Creating usability with motion guide",
           "description": "How to use motion correctly",
