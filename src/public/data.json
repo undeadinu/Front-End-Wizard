@@ -626,8 +626,8 @@
         },
         {
           "title": "MyDevice",
-          "description": "Common widths of mobile devices",
-          "url": "https://mydevice.io/devices/",
+          "description": "Common screen widths of mobile devices",
+          "url": "http://mydevice.io",
           "type": "webapp"
         },
         {
