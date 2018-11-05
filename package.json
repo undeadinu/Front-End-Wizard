@@ -9,6 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
     "@fortawesome/react-fontawesome": "^0.1.3",
     "@svgr/webpack": "2.4.1",
+    "asciidoc-link-check": "^1.0.10",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
@@ -64,7 +65,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "links": "asciidoc-link-check ./src/public/data.json --progress"
   },
   "eslintConfig": {
     "extends": "react-app"
