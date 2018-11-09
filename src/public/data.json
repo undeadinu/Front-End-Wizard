@@ -150,6 +150,13 @@
       "keywords": "Javascript js java script scripting",
       "links": [
         {
+          "title": "4 Uses of Javascript map",
+          "description": "4 uses of javascripts array map you should know",
+          "url": "https://scotch.io/tutorials/4-uses-of-javascripts-arraymap-you-should-know",
+          "type": "article",
+          "date": "November 9, 2018"
+        },
+        {
           "title": "Demystifying webpack",
           "description": "Get around the confusing learning curve of webpack",
           "url": "https://dev.to/sadarshannaiynar/demystifying-webpack-2f5n",
@@ -403,6 +410,26 @@
       ]
     },
     {
+      "name": "Best Practices",
+      "keywords": "best practices in development",
+      "links": [
+        {
+          "title": "Git commit",
+          "description": "How to write a good git commit message",
+          "url": "https://chris.beams.io/posts/git-commit/",
+          "type": "article",
+          "date": "November 9, 2018"
+        },
+        {
+          "title": "Checkbot",
+          "description": "A collection of over 50 web best practices that will make your site rank higher in search results and chrome plugin",
+          "url": "https://www.checkbot.io/",
+          "type": "webapp",
+          "date": "November 9, 2018"
+        }
+      ]
+    },
+    {
       "name": "Misc",
       "keywords": "miscellaneous other random",
       "links": [
@@ -412,12 +439,6 @@
           "url": "https://dev.to/jlozovei/are-you-a-happy-developer-4aok",
           "type": "article",
           "date": "October 23, 2018"
-        },
-        {
-          "title": "Git commit",
-          "description": "How to write a good git commit message",
-          "url": "https://chris.beams.io/posts/git-commit/",
-          "type": "article"
         },
         {
           "title": "StaticGen",

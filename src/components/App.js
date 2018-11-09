@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { getLinks } from '../actions/links';
 
 import '../../node_modules/bootstrap/scss/bootstrap.scss';
 import '../scss/master.scss';
@@ -9,40 +11,39 @@ import TopicGroup from "./TopicGroup";
 import Search from "./Search";
 import LoadingSpinner from './LoadingSpinner'
 import NoResults from "./NoResults";
+import SearchCategories from './SearchCategories';
 
 class App extends Component {
 
   state = {
-    data: null,
     filterTerm: '',
-    loading: true,
-    error: false
+    filterSections: []
   };
 
-  componentDidMount() {
-    fetch('https://raw.githubusercontent.com/kieranmv95/Front-End-Wizard/master/src/public/data.json')
-      .then(res => {
-        if(!res.ok) { throw Error }
-        return res.json()
-      })
-      .then(data => this.setState({
-        data: data.data,
-        loading: false
-      }))
-      .catch(err => {
-        this.setState({
-          loading: false,
-          error: true
-        })
-      });
-  }
-
   filterList = () => {
-    const { filterTerm, data } = this.state;
+    const { filterTerm, filterSections } = this.state;
+    const { links: { data } } = this.props;
+
+    let sectionFilteredArray = [];
     let filteredArray = [];
 
-    if(filterTerm.length > 0) {
+    if(filterSections.length > 0) {
       data.forEach(element => {
+        let object = {};
+        object.name = element.name;
+        object.keywords = element.keywords;
+        object.links = element.links;
+
+        if(filterSections.indexOf(object.name.toLowerCase()) > -1) {
+          sectionFilteredArray.push(object);
+        }
+      });
+    } else {
+      sectionFilteredArray = data;
+    }
+
+    if(filterTerm.length > 0) {
+      sectionFilteredArray.forEach(element => {
         let object = {};
 
         object.name = element.name;
@@ -52,28 +53,46 @@ class App extends Component {
                   el.description.toLowerCase().includes(filterTerm.toLowerCase());
         });
 
-        if (object.links.length > 0) {
-          filteredArray.push(object)
-        }
+        if (object.links.length > 0) filteredArray.push(object);
       });
-
-      console.log(filteredArray);
     } else {
-      filteredArray = data;
+      return filteredArray = sectionFilteredArray;
     }
     return filteredArray;
   };
 
   updateFilter = filterTerm => this.setState({ filterTerm });
 
+  updateSections = ( filterSection ) => {
+     const sectionsCopy = this.state.filterSections;
+
+     const index = sectionsCopy.indexOf(filterSection.toLowerCase());
+
+     if(index !== -1) {
+       sectionsCopy.splice(index, 1);
+     } else {
+       sectionsCopy.push(filterSection.toLowerCase());
+     }
+
+     this.setState({ filterSections: sectionsCopy });
+  };
+
   render() {
-    const { filterTerm, loading, error } = this.state;
+    const { filterTerm, filterSections } = this.state;
+    const { links: { data, error, loading} } = this.props;
     const filteredArray = this.filterList();
 
     return (
       <div>
         <Header />
-        <Search updateFilter={this.updateFilter} filterTerm={filterTerm} />
+        <div>
+          <section className="search mt-5">
+            <div className="container">
+              <Search updateFilter={this.updateFilter} filterTerm={filterTerm} />
+              {!loading && !error && <SearchCategories data={data} updateSections={this.updateSections} filteredSections={filterSections} />}
+            </div>
+          </section>
+        </div>
 
         {loading && <LoadingSpinner />}
         {error && <div>Error fetching data...</div>}
@@ -92,4 +111,10 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapDispatchToProps = dispatch => ({
+  getLinks: dispatch(getLinks())
+});
+
+export default connect(state => ({
+  links: state.links
+}), mapDispatchToProps)(App);

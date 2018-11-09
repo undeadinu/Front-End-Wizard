@@ -32,3 +32,27 @@
 }
 
 .hidden { display: none; }
+
+.search-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-category {
+  background-color: white;
+  border: none;
+  border-radius: 999em;
+  outline: none;
+  margin: 0 5px 10px 5px;
+  transition: transform .2s;
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.search-category--active {
+  background-color: #cb35e4;
+  color: white;
+}
